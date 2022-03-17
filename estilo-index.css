@@ -1,0 +1,32 @@
+@charset "utf8";
+@font-face{
+     font-family:black-way; src:url(fontes/Black\ Way\ -\ Personal\ Use.otf)
+}
+:root{
+    --cor0:#F5E50F
+    --cor1:#FCD00D
+    --cor2:#FCA10D
+    --cor3:#F5790C
+    --cor4:#E6AB17
+    --cor5:#F5F1EE
+    --cor6:#0D0901
+    --cor7:#E01987
+    --fonte1:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --fonte2:'Courier New', Courier, monospace;
+    --fonte3:'black-way'
+}
+body{
+    background-color: coral;width: 100%;
+}
+h1{
+    background-color:rgb(223, 187, 31) ;margin-left:  80px;
+    margin-right: 80px;border-radius: 10px;
+     text-align: center; color:var(--cor0);
+    font-family: var(--fonte3);
+}
+h2{
+    font-family: var(--fonte2);text-align: center;background-color: rgb(235, 226, 99);
+    margin-left: 80px;margin-right: 80px; color: blue;
+}main{
+    background-color: aliceblue;;margin: 5%;
+}
