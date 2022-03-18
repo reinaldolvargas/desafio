@@ -19,18 +19,30 @@ body{
     background-color: coral;width: 100%;
 }
 h1{
-    background-color:rgb(223, 187, 31) ;margin-left:  80px;
-    margin-right: 80px;border-radius: 10px;
+    background-color:rgb(223, 187, 31) ;margin-left:  85px;
+    margin-right: 85px;border-radius: 0px 0px 10px 10px;
      text-align: center; color:var(--cor0);
-    font-family: var(--fonte3);
+    font-family: var(--fonte3);padding-top: 6px;
 }
 h2{
     font-family: var(--fonte2);text-align: center;background-color: rgb(235, 226, 99);
-    margin-left: 80px;margin-right: 80px; color: blue;
+    margin-left: 85px;margin-right: 85px; color: blue;border-radius: 10px;
 }main{
-    background-color: aliceblue;margin: 5%;
+    background-color: aliceblue;margin:auto;border-radius: 10px;
+    max-width: 600px; min-width: 85px;
+   
 }
 a{
    background-color: rgb(235, 226, 99); border-radius: 50%;padding: 4px;
-   margin: 7px;
+   margin: 1px;font-weight: bolder;color: rgb(59, 5, 82);text-decoration: none;
 }
+a:hover{
+    background-color: aqua;text-decoration: underline;
+}
+a:active{
+    color: lightsalmon;
+}
+p{
+    font-family: var(--fonte2);text-align: center;padding-bottom: 4px;
+}
+
