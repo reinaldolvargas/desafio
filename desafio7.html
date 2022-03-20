@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../../../imagem/html.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="icon/IMG-ICON.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo-index.css">
     <title>Imagen flexivel</title>
     
 </head>
 <body>
- <h1>Adicionando imagem flexivel</h1> 
- <picture>
+ <main>
+     <article>
+         <reader>
+             <h1>Adicionando imagem flexivel</h1>
+             <P>Usamos uma &lt;picture&gt; e uma &lt;source&gt; para incorporar imagem que se adapte ao tamanho
+             da tela do aparelho em uso.</P>
+            <nav><p><a href="desafio6.html">&#x1f448;</a>
+         <a href="index.html">&#x1f309;</a>
+         <a href="desafio9.html">&#x1f449;</a></p></nav>
+         </reader>
         
-    <source media="(max-width:750px )" srcset="paisagem-m.png" alt="imagem flexivel">
-    <source media="(max-width:300px)" srcset="paisagem-p.pmg"alt="imagem flexivel">
-    <img src="paisagem-g.png" alt="imagen flexivel">
-</picture>
- <p><a href="desafio6.html">&#x1f448;</a> <a href="desafio8.html">&#x1f309;</a> <a href="desafio9.html">&#x1f449</a></p> 
-  
+         
+          
+     </article>
+  </main>
+   <picture>
+          <source media="(max-width:650px )" srcset="imagempng/paisagem-p.png" alt="imagem flexivel">
+            <source media="(max-width:350px)" srcset="imagempng/paisagem-m.pmg"alt="imagem flexivel">
+            <img src="imagempng/paisagem-g.png" alt="imagempng/imagen flexivel">
+         </picture>
+         <footer>Material de treinamento do curso em viveo</footer>  
 </body>
 </html>
