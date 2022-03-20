@@ -61,6 +61,9 @@ article.pg4{
 article.pg4 > img{
     padding-left: 35%;padding-right: 30%;
 }
+nav.pg5{
+    background-color: khaki;
+}
 footer{
     background-color:#F5E50F ;border-radius: 0px 0px 10px 10px;
     color:#E01987;text-align: center;
