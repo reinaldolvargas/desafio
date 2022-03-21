@@ -16,7 +16,10 @@
     --fonte3:'black-way'
 }
 body{
-    background-color: #E6AB17;width: 100%;
+    background-image: url('imagempng/paisagem-m.png');
+}
+body.pg2{
+    background-image: url('imagempng/SEA449~1.png');
 }
 h1{
     background-color:rgb(223, 187, 31) ;margin-left:  75px;
@@ -58,6 +61,8 @@ div.pg3{
 div.pg09{
     background-color: darkgrey;
 }
+
+
 article.pg4{
     background-color: darkolivegreen;border-radius: 10px;
 }
